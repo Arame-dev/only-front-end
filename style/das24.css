@@ -1,0 +1,167 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+.menu >li{
+	background: #005acb;
+	color: white;
+}
+.menu >li:first-child{
+	background: #005acb;
+	color: #7face5;
+}
+.menu :first-child li:hover{
+	color: #e8e8e8;
+}
+.menu li:hover{
+	color: #1d1d1d;
+	background: white;
+}
+.user{
+	gap: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.user i{
+	font-size: 19px;
+	color: white;
+}
+.user h6{
+	padding-top: 5px;
+	font-size: larger;
+	color: white;
+}
+.user h6:hover{
+	text-decoration: underline;
+}
+.contentmenu2{
+	display: contents;
+}
+.icons{
+	color: white;
+	letter-spacing: 14px;
+    font-size: 20px;
+}
+.content{
+	display: flex;
+    gap: 20px;
+    margin: 0 0 0 378px;
+    align-items: flex-start;
+    flex-direction: row;
+}
+.contentmenu1{
+	display: flex;
+	align-items: center;
+}
+.contentmenu1 >i{
+	position: absolute;
+    left: 695px;
+    font-size: 22px;
+}
+.contentmenu1 input{
+	width: 410px;
+	height: 43px;
+	padding: 10px;
+	position: relative;
+}
+.headerphone{
+	font-size: 20px;
+    position: absolute;
+    left: 895px;
+    color: white;
+}
+.phon{
+	color: white;
+	text-decoration: none;
+}
+.phon:hover{
+	text-decoration: underline;
+}
+.cards{
+	padding: 0;
+	display: grid;
+	grid-auto-flow: column;
+}
+.myclass{
+	background: #f5f5f5;
+	padding: 35px 128px;
+}
+.myclass > div{
+	width: 99%;
+	background: white;
+}
+.myclass > div >h2{
+	font-weight: 400;
+    padding: 13px;
+    font-size: 35px;
+    height: 70px;
+}
+.listBody h3{
+	font-size: 14px;
+    font-weight: 700;
+    min-height: 30px;
+    color: #333333;
+}
+.card-body{
+	text-align: center;
+}
+.oldPrice{
+	font-size: 11px;
+    color: gray;
+    text-decoration: line-through;
+}
+.monthly{
+	color: blue;
+    font-size: 13px;
+}
+.price{
+	margin: 2px;
+    font-weight: 700;
+}
+.smallPrice{
+	font-size: 14px;
+	font-weight: bold;
+    color: black;
+}
+.buy{
+	display: flex;
+    text-align: center;
+    height: 34px;
+    width: 72px;
+    margin: 0 auto;
+    gap: 5px;
+    align-items: center;
+}
+.buy:hover{
+	background: #005acb;
+}
+.new{
+	width: 45px;
+    background-color: #32cd32;
+}
+.limit{
+	width: 60px;
+	background-color: #ffce00;
+}
+.almostFooter{
+	width: 100%;
+	height: 120px;
+	padding: 20px 50px;
+	color: #333333;
+	background:white;
+}
+.almostFooter input{
+	width: 670px;
+	height: 40px;
+	padding: 10px;
+	outline: none;
+}
+.almostFooter a{
+	width: 122px;
+	height: 40px;
+	left: 600px;
+	position: absolute;
+}
